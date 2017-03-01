@@ -44,7 +44,7 @@
                         <a class="page-scroll" href="#info">Nosotros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#visitas">Visitas</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#cronograma">Cronograma</a>
@@ -67,6 +67,7 @@
 
     <!-- Slider Header -->
     <header id="myCarousel" class="carousel slide">
+     
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -106,6 +107,7 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
+    
     </header>
 
     <!-- About -->
@@ -147,20 +149,29 @@ estudiantes tengan conocimiento de la existencia de dicha asociación y que fina
                         <p class="text-muted text-justify"></p>
                     </div>
                 </div>
+               
                 <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <button type="button" class="btn btn-primary btn-lg">Inscribirse</button>
+                    <div class="col-lg-12">
+                        <video width="100%" height="720" controls>
+                            <source src="video/presentacion.mp4" type="video/mp4">                           
+                            Su explorador no soporta el formato de video HTML5, por favor visualice el sitio en otro explorador diferente.
+                        </video>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <button type="button" class="btn btn-primary btn-lg">Inscribirse</button>
                 </div>
             </div>
         </div>
     </section> 
 
-    <!-- Undefined -->
-    <section id="portfolio" class="bg-light-gray">
+    <!-- visitas -->
+    <section id="visitas" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Indefinido</h2>
+                    <h2 class="section-heading">Eventos destacados</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -321,7 +332,9 @@ estudiantes tengan conocimiento de la existencia de dicha asociación y que fina
                                 </div>
                             </div>
                         </li>
-                        v
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <button type="button" class="btn btn-primary btn-lg">Inscribirse</button>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -330,21 +343,13 @@ estudiantes tengan conocimiento de la existencia de dicha asociación y que fina
 
     <!-- Map -->
     <section id="map" class="bg-light-gray">
-        <div class="container">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Mapa de actividades</h2>
-                    <h3 class="section-subheading text-muted">Espacio para mapa de google con referencias</h3>
+                <div class="col-lg-12">
+                    <div id="map"></div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                    <button type="button" class="btn btn-primary btn-lg">Inscribirse</button>
-                </div>
             </div>
-        </div>
     </section>
 
     <!-- Clients Aside -->
@@ -643,6 +648,10 @@ estudiantes tengan conocimiento de la existencia de dicha asociación y que fina
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+
+    <!-- Google Maps -->
+    <script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrcS3DGZO_ouHE3XX3vItMZrbOnIEpgnc"></script>
 
 </body>
 

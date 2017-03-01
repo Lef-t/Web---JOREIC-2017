@@ -151,7 +151,9 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #fec503;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -533,6 +535,12 @@ section h3.section-subheading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+#map{
+  width: 100%;
+  height: 50vh;
+  margin-top: 0;
+  padding-top: 0;
 }
 .team-member {
   text-align: center;
