@@ -215,6 +215,17 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #fec503;
 }
+@media screen and (max-width: 980px) {
+  .a2a_floating_style.a2a_vertical_style { 
+    display: none;
+      }
+   #myCarousel {
+    display:none;
+  }
+  #videopres {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .navbar-custom {
     background-color:rgba(10, 10, 10, 0.3);
@@ -635,14 +646,15 @@ section#contact .text-danger {
 footer {
   padding: 0 0;
   text-align: center;
-  height: 3%;
+  height: 4%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
-  text-align: left;
 }
 
 footer span.copyright ul {
@@ -652,7 +664,7 @@ footer span.copyright ul {
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
