@@ -255,7 +255,6 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-image: url('../img/header-bg.jpg');*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -786,4 +785,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fec503;
+}
+div#formalert{
+  height:20vh;
 }
