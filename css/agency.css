@@ -13,7 +13,7 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
@@ -641,6 +641,9 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
+}
+h2#about-title{
+    color:#e7b201;
 }
 footer {
   padding: 0 0;
