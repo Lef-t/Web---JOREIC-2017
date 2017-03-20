@@ -14,7 +14,7 @@ $(function () {
         var markerImage = 'img/marker.png';
 
 //Marker: UTN FRCU
-        var marker = new google.maps.Marker({
+/*        var marker = new google.maps.Marker({
             position: {lat: -32.495702, lng: -58.229611},
             map: map,
             icon: markerImage,
@@ -74,7 +74,7 @@ $(function () {
         });
         terminal.addListener('click', function () {
             infowindow.open(map, terminal);
-        }); 
+        }); */
 
     }
 

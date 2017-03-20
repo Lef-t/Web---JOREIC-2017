@@ -14,7 +14,7 @@ $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'luis.efiorotto92@gmail.com'; 
+$to = 'aneicconcepciondeluruguay@gmail.com'; 
 $email_subject = "Correo automático - JOREIC 2017:  $name";
 $email_body = "Usted recibió un nuevo correo proveniente de su Sitio Web, JOREIC 2017.\n\n"."A continuación encontrará los detalles:\n\nName: $name\n\nEmail: $email_address\n\n\nMessage:\n$message";
 $headers = "From: noresponder@joreic.com\n"; 

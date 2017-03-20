@@ -19,7 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/full-slider.css" rel="stylesheet">
 </head>
 
@@ -58,9 +58,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="formulario.html" target="_blank">Inscripción</a> <!--Linkear formulario -->
-                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="formulario.html" target="_blank">Inscripción</a>
+                    </li> --> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -77,7 +77,6 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for Slides -->
@@ -104,12 +103,6 @@
                 <div class="fill" style="background-image:url('img/slider/palacio.jpg');"></div>
                 <div class="carousel-caption">
                     <h4>Palacio de San José</h4>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('img/slider/municipalidad.jpg');"></div>
-                <div class="carousel-caption">
-                    <h4>Municipalidad Concepción del Uruguay</h4>
                 </div>
             </div>
         </div>
@@ -165,16 +158,16 @@ procesos que afectan a la profesión y la sociedad.</p>
                
                 <div class="row">
                     <div class="col-lg-12">
-                        <video id="videopres" width="100%" height="720" controls>
+                        <video id="videopres" poster="img/slider/joreic.jpg" width="100%" height="720" controls>
                             <source src="video/presentacion.mp4" type="video/mp4">                           
                             Su explorador no soporta el formato de video HTML5, por favor visualice el sitio en otro explorador diferente.
                         </video>
                     </div>
                 </div>
                 <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <!--<div class="col-lg-8 col-lg-offset-2 text-center">
                     <button type="button" class="btn btn-primary btn-lg"><a id="inscripcion" href="formulario.html" target="_blank">Inscribirse</a> </button>
-                </div>
+                </div>-->
             </div>
         </div>
     </section> 
@@ -294,77 +287,90 @@ procesos que afectan a la profesión y la sociedad.</p>
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/cronograma/acreditacion.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/cronograma/1-acreditacion.jpg" alt="acreditaciones">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Acreditaciones</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Fecha: Jueves 18 – 9 a 12hs</p>
+                                    <p class="text-muted">Fecha: Jueves 18 – 9 a 12 horas</p>
                                     <p class="text-muted">Lugar: UTN FRCU</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                              <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/cronograma/visitas.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/cronograma/2-ambiental.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Disertaciones - Ambiental</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Fecha: Viernes 19  </p>
-                                    <p class="text-muted">El horario y lugar depende de cada visita.</p>
+                                    <p class="text-muted">Fecha: Jueves 18 - 14 a 20 horas</p>
+                                    <p class="text-muted">Auditorio Municipal Carlos M. Scelzi.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/cronograma/recreativa.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/cronograma/3-visitas.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Recreativa</h4>
+                                    <h4>Visitas Técnicas</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Fecha: Viernes 19 - Finalizadas las visitas Técnicas</p>
-                                    <p class="text-muted"></p>
+                                    <p class="text-muted">Fecha: Viernes 19 - Horarios específicos de cada visita</p>
+                                    <p class="text-muted">Lugar: Específico para cada visita. Ver <a class=" text-primary page-scroll" href="#map">mapa</a>.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/cronograma/madera.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/cronograma/4-recreativa.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Disertaciones – Madera en la Construcción<h4>
+                                    <h4>Recreativa<h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Fecha: Sábado 20 – 14 a 19hs</p>
+                                    <p class="text-muted">Fecha: Viernes 19 – Al finalizar las visitas técnicas.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/cronograma/5-madera.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Disertaciones - Madera en la construcción</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Fecha: Sábado 20 – 14 a 19 horas</p>
                                     <p class="text-muted">Lugar: Auditorio Municipal Carlos María Scelzi</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/cronograma/Clausura.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/cronograma/6-Clausura.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Clausura</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Fecha: Sábado 20 – 19 a 20hs</p>
+                                    <p class="text-muted">Fecha: Sábado 20 – 19 a 20 horas</p>
                                     <p class="text-muted">Lugar: Auditorio Municipal Carlos María Scelzi</p>
                                 </div>
                             </div>
                         </li>
-                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                       <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
                             <button type="button" class="btn btn-primary btn-lg"><a id="inscripcion" href="formulario.html" target="_blank">Inscribirse</a> </button>
-                        </div>
+                        </div> -->
                     </ul>
                 </div>
             </div>
