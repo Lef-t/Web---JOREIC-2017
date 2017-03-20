@@ -22,6 +22,22 @@
     $('.navbar-collapse ul li a').click(function(){ 
             $('.navbar-toggle:visible').click();
     });
+    
+    //Play and Pause video
+    $('#videopres').click(function() {
+        this.paused ? this.play() : this.pause();
+    });
+    
+    //Play and Pause Video V2
+    $('.video').parent().click(function () {
+    if($(this).children(".video").get(0).paused){
+        $(this).children(".video").get(0).play();
+        $(this).children(".playpause").fadeOut();
+    }else{
+       $(this).children(".video").get(0).pause();
+        $(this).children(".playpause").fadeIn();
+    }
+});
 
     // Offset for Main Navigation
     $('#mainNav').affix({
