@@ -1,0 +1,1 @@
+Añadir la clase "col-md-8" y "col-md-4" a los divs de imagen y texto, dentro del Section ABOUT.

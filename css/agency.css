@@ -815,3 +815,7 @@ div#formalert{
     background-size:contain;
     background-position: center;
 }
+#event-img{
+    width: 260px;
+    height: 350px;
+}
